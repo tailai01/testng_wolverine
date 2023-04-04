@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<!--套件名字，所有的测试执行都在这下面-->
+<suite name="TestSuite">
+    <!--测试名字-->
+    <test name="Test1">
+        <classes>
+            <!--具体类名称，执行这个类下面的所有方法-->
+            <class name="com.test.testng.Lesson0Annotation.TestSuite"/>
+            <class name="com.test.testng.Lesson0Annotation.TestAnnotation1"/>
+            <class name="com.test.testng.Lesson0Annotation.TestAnnotation2"/>
+        </classes>
+    </test>
+
+    <!--测试名称-->
+    <test name="Test2">
+        <classes>
+            <class name="com.test.testng.Lesson0Annotation.TestAnnotation3"/>
+        </classes>
+    </test>
+</suite>
